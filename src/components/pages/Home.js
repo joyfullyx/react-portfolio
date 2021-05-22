@@ -1,20 +1,26 @@
 import React from "react";
+import "../../styles/Home.css";
+import Images from "./Images/HomeImg.png"
+import About from "./About"
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+    <>
+    <div className="d-flex justify-content-around align-self-center">
+      <div className="d-flex align-self-center">
+        <h1>Joy Rhee</h1>
+      </div>
+      <img 
+      src={Images}
+      alt="profile picture"
+      id="profile-pic"
+      />
     </div>
+    <div>
+      <About />
+    </div>
+    </>
+   
   );
 }
 
