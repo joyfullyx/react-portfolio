@@ -15,13 +15,13 @@ function Contact() {
       </p>
       <p>
         <strong>Github: </strong>{" "}
-        <a href="https://github.com/joyfullyx" id="github" className="text-secondary">
+        <a href="https://github.com/joyfullyx" target="_blank" rel="noreferrer" id="github" className="text-secondary">
           Github
         </a>
       </p>
       <p>
         <strong>LinkedIn: </strong>{" "}
-        <a href="https://www.linkedin.com/in/joy-rhee/" id="linkedin" className="text-secondary">
+        <a href="https://www.linkedin.com/in/joy-rhee/" target="_blank" rel="noreferrer"id="linkedin" className="text-secondary">
           LinkedIn
         </a>
       </p>
