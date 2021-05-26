@@ -6,9 +6,17 @@ Portfolio built with React.js, using components to dynamically add content on pa
 
 Use of BrowserRouter and Route to render fluid navigation throughout. 
 
+### Additional React.js packages:
+
+[bootstrap](https://react-bootstrap.github.io/), [react-icons](https://react-icons.github.io/react-icons/).
+
 ### Contributions: 
 
 n/a
+
+### License: 
+
+MIT
 
 ### Github:
 
