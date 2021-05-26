@@ -1,28 +1,31 @@
 import React from "react";
 // import { Link, Route } from "react-router-dom";
+import "../../styles/Contact.css";
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 class="d-flex justify-content-around p-4">Contact</h1>
+      <div class="p-5" id="contact">
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
+        <strong>Email: </strong>{" "}
+        <a href="mailto:joyfullyx@gmail.com" id="email" className="text-secondary">
+          joyfullyx@gmail.com
+        </a>
       </p>
-      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
+      <p>
+        <strong>Github: </strong>{" "}
+        <a href="https://github.com/joyfullyx" id="github" className="text-secondary">
+          Github
+        </a>
+      </p>
+      <p>
+        <strong>LinkedIn: </strong>{" "}
+        <a href="https://www.linkedin.com/in/joy-rhee/" id="linkedin" className="text-secondary">
+          LinkedIn
+        </a>
+      </p>
+      </div>
     </div>
   );
 }

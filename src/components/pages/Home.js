@@ -12,7 +12,7 @@ function Home() {
       </div>
       <img 
       src={Images}
-      alt="profile picture"
+      alt="profile"
       id="profile-pic"
       />
     </div>

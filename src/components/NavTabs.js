@@ -9,22 +9,29 @@ function NavTabs() {
   return (
     <ul className="nav d-flex justify-content-around" id="nav">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link
+          to="/"
+          className={location.pathname === "/" ? "nav-link active text-secondary" : "nav-link text-secondary" }
+        >
           About
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/work"
+          className={
+            location.pathname === "/work" ? "nav-link active text-secondary" : "nav-link text-secondary"
+          }
         >
           Work
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+          to="/resume"
+          className={
+            location.pathname === "/resume" ? "nav-link active text-secondary" : "nav-link text-secondary"
+          }
         >
           Résumé
         </Link>
@@ -32,7 +39,9 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          className={
+            location.pathname === "/contact" ? "nav-link active text-secondary" : "nav-link text-secondary"
+          }
         >
           Contact
         </Link>

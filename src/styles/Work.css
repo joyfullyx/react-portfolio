@@ -1,0 +1,21 @@
+#work-header {
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oui {
+    width: 50%
+}
+
+.vaccine {
+    width: 50%
+}
+
+.notes {
+    width: 50%
+}
+
+.inventory {
+    width: 50%
+}

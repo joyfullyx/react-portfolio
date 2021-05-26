@@ -1,0 +1,13 @@
+.nav-link {
+    color: #686868;
+}
+
+#contact-header {
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact {
+    text-align: center
+}
