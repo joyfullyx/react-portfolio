@@ -4,7 +4,7 @@ import "../../styles/Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div id="info">
       <h1 class="d-flex justify-content-around p-4">Contact</h1>
       <div class="p-5" id="contact">
       <p>

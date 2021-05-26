@@ -4,14 +4,17 @@ import Oui from "./Images/Oui.png";
 import Vaccine from "./Images/Vaccine.png";
 import NoteTaker from "./Images/NoteTaker.png";
 import Ecommerce from "./Images/Ecommerce.png";
+import Employee from "./Images/Employee.png";
+import ReactEmployee from "./Images/ReactEmployee.png";
 
 function Work() {
   return (
     <div>
       <h1 class="d-flex justify-content-around p-4">Work</h1>
+
       <div className="d-flex justify-content-around align-self-center p-4">
         <img src={Oui} alt="oui community board" className="oui rounded"></img>
-        <div className="d-flex align-self-center p-4">
+        <div className="d-flex justify-content-around align-self-center p-4">
           <p>
             <strong>Oui Circle</strong>
             <br></br>
@@ -100,6 +103,52 @@ function Work() {
 
       <div className="d-flex justify-content-around align-self-center p-4">
         <img
+          src={ReactEmployee}
+          alt="vaccine finder"
+          className="vaccine rounded"
+        ></img>
+        <div className="d-flex align-self-center p-4">
+          <p>
+            <strong>Employee Directory</strong>
+            <br></br>
+            <br></br>
+            React app that allows employers to search a directory with
+            non-sensitive information to easily find employees through forward
+            and reverse alphabetical order and search.
+            <br></br>
+            <br></br>
+            <a
+              href="https://jr-employee-directory-react.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                id="oui"
+              >
+                Employee Directory
+              </button>
+            </a>
+            <a
+              href="https://github.com/joyfullyx/employee-directory-react"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                id="oui-repo"
+              >
+                Github Repo
+              </button>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div className="d-flex justify-content-around align-self-center p-4">
+        <img
           src={NoteTaker}
           alt="vaccine finder"
           className="notes rounded"
@@ -128,6 +177,47 @@ function Work() {
             </a>
             <a
               href="https://github.com/joyfullyx/note-taker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                id="oui-repo"
+              >
+                Github Repo
+              </button>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div className="d-flex justify-content-around align-self-center p-4">
+        <img
+          src={Employee}
+          alt="vaccine finder"
+          className="notes rounded"
+        ></img>
+        <div className="d-flex align-self-center p-4">
+          <p>
+            <strong>Employee Tracker</strong>
+            <br></br>
+            <br></br>
+            Node.js using MySql database that allows employers to add
+            information about employees. Information and categories available to
+            add include name, manager, role, department, and salary.
+            <br></br>
+            <br></br>
+            <button
+              type="button"
+              className="btn btn-outline-secondary"
+              disabled
+              id="oui"
+            >
+              Terminal only!
+            </button>
+            <a
+              href="https://github.com/joyfullyx/employee-tracker"
               target="_blank"
               rel="noreferrer"
             >
